@@ -1,0 +1,118 @@
+input {
+  margin: 0;
+  border: none;
+  border-radius: 4px;
+  border: 1px solid rgba(207, 204, 212, 1);
+  float: left;
+  font-size: 16px;
+  margin: auto;
+  width: 73%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.i {
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ui-footer {
+  align-content: center;
+  padding-top: 10px;
+  padding-bottom: 51px;
+  padding-left: 5px;
+  border-collapse: separate;
+  border-spacing: 20px 50px;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fbfafb;
+}
+.ui-header h2 {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.ui-body {
+  border-top: 1px solid rgba(207, 204, 212, 1);
+}
+
+.ui-task {
+  line-height: 48px;
+}
+.ui-task-body {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  border-bottom: 1px solid rgba(207, 204, 212, 1);
+}
+body {
+  background-color: #fbfafb;
+}
+
+.iconoTaks {
+  text-align: center;
+  padding: 40px 25px 40px 25px;
+}
+.ui-container {
+  width: 400px;
+  margin: 0 auto;
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(207, 204, 212, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(207, 204, 212, 1);
+  box-shadow: 0px 0px 20px 0px rgba(207, 204, 212, 1);
+  border-radius: 4px;
+}
+
+.addBtn {
+  margin: 0;
+  border: none;
+  background-color: white;
+  border-radius: 4px;
+  padding-left: initial;
+  float: left;
+  font-size: 16px;
+  border: 1px solid rgba(207, 204, 212, 1);
+  margin: auto;
+  width: 20%;
+  height: 0%;
+  align-items: flex-end;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 17px;
+}
+
+ul p:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul p:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul p.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul p.checked::before {
+  content: "";
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  float: left;
+  transform: rotate(45deg);
+}

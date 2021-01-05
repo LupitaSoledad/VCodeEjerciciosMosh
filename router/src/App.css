@@ -1,0 +1,152 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav-link {
+  margin-right: 796px;
+  margin-left: -14px;
+}
+
+.navbar-nav {
+  width: 70px;
+  height: 70px;
+  background-color: #ffeb3b78;
+  border-radius: 11px;
+  padding: 17px;
+  margin-left: 24px;
+}
+
+.title {
+  margin-top: -111px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.Container {
+  background-color: #ff9800ab;
+  width: 668px;
+  height: 340px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 33px;
+}
+
+.Producto1 {
+  border-radius: 128px;
+  width: 147px;
+  margin-top: 67px;
+  margin-left: -294px;
+}
+.Producto2 {
+  border-radius: 128px;
+  width: 183px;
+  margin-top: 38px;
+  margin-left: -293px;
+}
+.Producto3 {
+  border-radius: 128px;
+  width: 156px;
+  margin-top: 67px;
+  margin-left: -294px;
+}
+
+h5 {
+  margin-right: 298px;
+  margin-top: 1px;
+  color: red;
+}
+
+.Bebidas {
+  margin-top: -187px;
+  margin-left: 325px;
+}
+
+.Postres {
+  margin-top: -214px;
+  margin-left: 704px;
+}
+
+.Comidas {
+  margin-left: -114px;
+}
+
+.textP3 {
+  margin-left: -162px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: red;
+  color: white;
+}
+
+.postEs {
+  margin-right: auto;
+}
+
+table {
+  border: 1px solid black;
+  width: 36%;
+  margin-left: 215px;
+  text-align: center;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid black;
+}
+th {
+  background-color: hsl(0, 75%, 65%);
+}
+tr:nth-child(even) {
+  background-color: rgba(255, 139, 139, 0.377);
+}
